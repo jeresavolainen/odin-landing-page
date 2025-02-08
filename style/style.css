@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+}
+li {
+  list-style-type: none;
+}
+a {
+  color: #f9faf8;
+  text-decoration: none;
+}
+.header {
+  background-color: #1F2937;
+  display: flex;
+ 
+}
+.footer  {
+  background-color: #1F2937;
+  display: flex;
+  color: #f9faf8;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+ font-size: 14px;
+}
