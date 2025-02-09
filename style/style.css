@@ -4,6 +4,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   background-color: #1F2937;
+  margin-top: 40px;
   margin-left: 0px;
   padding: 0px;
 
@@ -20,19 +21,29 @@ button {
   color: #f9faf8;
 }
 .header, .page-content, .main-content, .quote,.sign-up-container {
-padding-left: 300px;
-padding-right: 300px;
+  padding-left: 300px;
+  padding-right: 300px;
 }
 
 .header {
   display: flex;
+  height: 100px;
   
  
 }
 .header-logo {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
+.header-links {
+  display: flex;
+  margin-left: auto;
+  flex-grow: 0;
+  gap: 40px;
+  justify-content: center;
+  align-items: start;
+}
 
 .footer  {
   display: flex;
@@ -40,7 +51,7 @@ padding-right: 300px;
   height: 60px;
   justify-content: center;
   align-items: center;
- font-size: 14px;
+  font-size: 14px;
 }
 .main-content {
   background-color: #f9faf8;
