@@ -20,8 +20,8 @@ button {
   color: #f9faf8;
 }
 .header, .page-content, .main-content, .quote,.sign-up-container {
-padding-left: 100px;
-padding-right: 100px;
+padding-left: 300px;
+padding-right: 300px;
 }
 
 .header {
