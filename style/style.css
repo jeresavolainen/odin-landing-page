@@ -4,6 +4,8 @@ body {
   flex-direction: column;
   min-height: 100vh;
   background-color: #1F2937;
+  margin-left: 0px;
+  padding: 0px;
 
 }
 li {
@@ -17,8 +19,14 @@ button {
   background-color: #3882f6;
   color: #f9faf8;
 }
+.header, .page-content, .main-content, .quote,.sign-up-container {
+padding-left: 100px;
+padding-right: 100px;
+}
+
 .header {
   display: flex;
+  
  
 }
 .header-logo {
@@ -40,7 +48,14 @@ button {
 .quote {
   background-color: #e5e7eb;
 }
-.sign-up-container {
+.sign-up-container{
+  background-color: #f9faf8;
+}
+.sign-up {
   background-color: #3882f6;
-  color: #f9faf8;
+  color: #e5e7eb;
+}
+.walnut {
+  height: 100px;
+
 }
